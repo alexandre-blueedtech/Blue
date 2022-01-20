@@ -29,10 +29,10 @@ function into(text){
   let pergunta2 = into('Sabe porque o wi-fi ta ruim? ')
   let pergunta3 = into('Já viu meu chamado? ')
   let pergunta4 = into('Tem uma solução ? ')
-  let pergunta5 = into('Já concertou ?')
+  let pergunta5 = into('Já consertou ?')
   let concat = pergunta1+pergunta2+pergunta3+pergunta4+pergunta5
   
-  let recebe =[ 'Rozoavel','médio', 'ruim', 'péssimo', 'horrivel' , 'Exelente'] 
+  let recebe =[ 'horrivel','médio', 'ruim', 'péssimo', 'razoavel' , 'Exelente'] 
   let total = 0;
   if(concat == 'sim'){
       total = concat;
