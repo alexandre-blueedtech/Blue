@@ -6,7 +6,7 @@ console.log(`
 
 Paulo, TI de um pouco mais de 50 anos. 
 sua função é dar suporte aos usuários, resolver e implementar soluções.
-Mas, qual será o nível de satisfação que possui no seu trabalho?
+Mas, qual será o nível de satisfação que paulo possui no seu trabalho?
 Para isso, foi efetuado um teste de prestatividade,
 para situação de pedido de ajuda dos usuários a ele.
 
@@ -30,6 +30,7 @@ function into(text){
   let pergunta3 = into('Já viu meu chamado? ')
   let pergunta4 = into('Tem uma solução ? ')
   let pergunta5 = into('Já consertou ?')
+  
   let concat = pergunta1+pergunta2+pergunta3+pergunta4+pergunta5
   
   let recebe =[ 'horrivel','médio', 'ruim', 'péssimo', 'razoavel' , 'Exelente'] 
@@ -42,5 +43,4 @@ function into(text){
   console.log()
   console.log()
 
-  
   console.log(`O trabalho do paulo recebeu ${concat} respostas "sim", e foi considerado: ${recebe[concat]}`)
