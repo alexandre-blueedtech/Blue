@@ -43,4 +43,4 @@ function into(text){
   console.log()
   console.log()
 
-  console.log(`O trabalho do paulo recebeu ${concat} respostas "sim", e foi considerado: ${recebe[concat]}`)
+  console.log(`O teste do paulo recebeu ${concat} respostas "sim", e seu trabalho foi considerado: ${recebe[concat]}`)
