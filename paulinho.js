@@ -4,7 +4,7 @@ const prompt = require('prompt-sync')();
 console.log(`
           "Paulinho"
 
-Paulo, TI de um pouco mais de 18 anos. 
+Paulo, TI de um pouco mais de 50 anos. 
 sua função é dar suporte aos usuários, resolver e implementar soluções.
 Mas, qual será o nível de satisfação dos usuários referente ao trabalho de paulo?
 Para isso, foi efetuado um teste de prestatividade,
